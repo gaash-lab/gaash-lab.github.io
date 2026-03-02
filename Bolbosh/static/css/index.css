@@ -1,4 +1,12 @@
 /* docs/static/css/index.css */
+
+@font-face {
+  font-family: 'Afan Koshur';
+  src: url('fonts/afan_koshur.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Google Sans', BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   color: #363636;
@@ -106,7 +114,9 @@ body {
 
 .ks-text {
   line-height: 1.8;
-  font-family: "Scheherazade New", Tahoma, Arial, sans-serif;
+  font-family: 'Afan Koshur', "Scheherazade New", Tahoma, Arial, sans-serif !important;
+  font-size: 2rem !important;
+  font-weight: 1000 !important;
 }
 
 /* Navbar specific styling */
