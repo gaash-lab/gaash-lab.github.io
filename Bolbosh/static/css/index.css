@@ -10,10 +10,16 @@ body {
 }
 
 .bolbosh-text {
-  background: -webkit-linear-gradient(45deg, #FF6B6B, #4ECDC4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.publication-authors a {
+  color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+  text-decoration: underline;
 }
 
 .section-title {
@@ -61,22 +67,14 @@ body {
 
 .publication-links {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 15px;
 }
 
 .link-block a {
-  transition: all 0.3s ease;
-  font-weight: 500;
-  border: none;
-}
-
-.link-block a:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-  background-color: #4ECDC4 !important;
-  color: white !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .hero .hero-body {
